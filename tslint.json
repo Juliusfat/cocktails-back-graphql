@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "target": "es6",
+      "module": "commonjs",
+      "sourceMap": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "typeRoots": ["node_modules/@types"],
+      "baseUrl": "127.0.0.1",
+      "resolveJsonModule": true
+    },
+    "include": ["src/**/**.ts", "test/**/**.ts"],
+    "exclude": ["node_modules"]
+  }
